@@ -1,0 +1,30 @@
+#search-box1{
+	width: 257px;
+	outline: none;
+}
+.search-box-button{
+	display: inline-block;
+	position: relative;
+	background-color: rgb(231, 87, 53);
+	width: 33px;
+	height: 28px;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+	top: -5px;
+	right: 6px;
+	cursor: pointer;
+}
+.loupe{
+	position: relative;
+	left: 9px;
+	top: 6px;
+} 
+
+/*position*/
+#search-container{
+	margin-left: 45px;
+	margin-top: 19px;
+}
+.select-box{
+	margin-top: 51px;
+}

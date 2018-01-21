@@ -1,0 +1,18 @@
+.big-news-place{
+    display: flex;
+    justify-content:space-around;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: rgba(231, 87, 53, 0.08);
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    padding: 20px;
+}
+.line{
+    width: 90%;
+    border-top: 1px dashed black;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}

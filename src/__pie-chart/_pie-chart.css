@@ -1,0 +1,13 @@
+._pie-chart {
+	
+    transform: rotate(-90deg);
+}
+
+._pie-chart_animation{
+	
+    stroke-dasharray: 301;
+	stroke-dashoffset: 0;
+	transition: all 2s ease;
+}
+
+

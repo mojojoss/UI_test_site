@@ -1,0 +1,118 @@
+.message-window-box{
+	width: 279px;
+	height: 428px;
+	overflow: hidden;
+	border-radius: 4px;
+
+}
+.message-window-name {
+	height: 82px;
+	background-color: rgb(78,183,168);
+}
+.message-window-name p{
+	margin: 0;
+	font-family: myriad pro;
+	font-size: 34px;
+	text-align: center;
+	padding-top: 20px;
+	color: white
+}
+.message-window-darkline {
+	height: 34px;
+	background-color: rgb(70,171,157);
+	
+}
+
+.message-window-messageSpace {
+	height: 312px;
+	background-color: rgb(242,242,242);
+}
+.message-window-photo{
+	display: block;
+	width: 83px;
+	height: 83px;
+	border: 5px solid rgb(229,229,229);
+	border-radius: 50%;
+	background-image: url(../../src/__message-window/_message-window-photo/developer-photo2.png);
+	position: relative;
+	top: -15px;
+	left: 90px;
+}
+.incoming-message {
+	background-color: white;
+	height: 69px;
+	width: 243px;
+	position: relative;
+	left: 18px;
+	top: 35px;
+	border-radius: 5px;
+}
+
+
+.incoming-message p{
+	margin: 0;
+	font-family: lato;
+	font-size: 12,5px;
+	color: rgb(134,134,134);
+	padding-top: 15px;
+	padding-left: 20px;
+	position: relative;
+	top: -24px;
+}
+.incoming-message::before{
+	content: '';
+	position: relative;
+	display: inline-block;
+	border: 10px solid transparent;
+	border-bottom:10px solid white;
+	top: -20px;
+	left: 107px;
+}
+#message-text{
+	width: 237px;
+	height: 82px;
+	border: 3px solid white;
+	background-color: rgb(229,229,229);
+	border-radius: 3px;
+	resize: none;
+	color: rgb(136, 136, 136);
+	font-family: 'Myriad Pro', Regular;
+	padding: 13px;
+	box-sizing: border-box;
+	position: relative;
+	top: 50px;
+	left: 22px;
+	outline: none;
+}
+.message-reply-button{
+	width: 243px !important;
+	height: 32px !important;
+	font-size: 10px !important;
+	position: relative;
+	left: -153px;
+	top: 54px
+
+}
+
+
+.chat-icon {
+	position: relative;
+	left: 27px;
+	top: 23px;
+	cursor: pointer;
+	
+	width: 20px;
+	height: 22px;
+
+	background-image: url(../../src/__message-window/_message-window-icon/ChatIcon.png);
+}
+
+.camera-icon {
+	background-image: url(../../src/__message-window/_message-window-icon/CameraIcon.png);
+	width: 25px;
+	height: 20px;
+	position: relative;
+	left: 235px;
+	
+	cursor: pointer;
+}

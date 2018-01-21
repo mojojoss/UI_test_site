@@ -1,0 +1,11 @@
+.button-margin{
+	float: left;
+	margin-right: 24px !important;
+}
+#buttons{
+	padding-top: 163px;
+	padding-left: 110px;
+}
+.small-button-margin{
+	margin-top: 10px !important;
+}

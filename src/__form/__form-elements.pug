@@ -1,0 +1,14 @@
+#form-elements
+  form#form
+    label
+      input#input-text(type='text', required='', placeholder='Your Name', name='input-text')
+      span#text-valid-cloud.form_error ERROR
+    label(for='input-email')
+      br
+      input#input-email.input-email(type='email', required='', name='input-email', placeholder='Your Email')
+      span#email-valid-cloud.form_error ERROR
+    br
+    textarea#textarea(name='textarea', form='form', placeholder='Your Message')
+    input.__button._button_color-aqua._button_size-big.ripp(type='submit', value='SUBMIT')
+  .toggle-box
+    

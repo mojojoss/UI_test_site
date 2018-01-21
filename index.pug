@@ -1,0 +1,16 @@
+doctype html
+html
+  include src/head/head.pug
+  body
+    include src/header/header.pug
+    section
+        a(href="./news.html" style="text-decoration:none; text-align:center;")
+            h2 actual news
+        .news-flex-div
+            include src/__news/__news-box
+            include src/__news/__news-box2
+            include src/__news/__news-box2
+        .events-flex-div
+            include src/__events/events/event1/__events.pug
+            include src/__events/events/event2/__events2.pug
+            include src/__events/events/event2/__events2.pug

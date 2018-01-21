@@ -1,0 +1,88 @@
+.b {
+	display: block;
+}
+
+.toggle {
+	position: relative;
+	left: 50px;
+	width: 60px;
+	height: 24px;
+	border-radius: 100px;
+	background-color: #ddd;
+	margin: -20px -40px;
+	overflow: hidden;
+
+}
+
+.check {
+	position: absolute;
+	display: block;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	z-index: 6;
+}
+
+.check:checked ~ .track {
+	background: rgb(78,183,168);
+}
+
+.check:checked ~ .switch {
+	right: 2px;
+	left: 38px;
+	transition: .35s ease;
+	transition-property: left, right;
+}
+
+.switch {
+	position: absolute;
+	left: 2px;
+	top: 2px;
+	bottom: 2px;
+	right: 38px;
+	background-color: #fff;
+	border-radius: 36px;
+	z-index: 1;
+	transition: .35s ease;
+	transition-property: left, right;
+}
+
+.track {
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	transition: .35s ease;
+	border-radius: 40px;
+}
+.switch::after{
+	content: 'OFF';
+	position: relative;
+	left: 9px;
+	color: white;
+	font-size: 12px;
+	font-family: 'Myriad Pro', Regular;
+}
+.switch::before{
+	content: 'ON';
+	position: relative;
+	left:-25px;
+	color: white;
+	font-size: 12px;
+	font-family: 'Myriad Pro', Regular;
+}
+
+
+/*position*/
+.toggle-box{
+	width: 300px;
+	float: left;
+}
+.toggle-position{
+	margin-left: 46px !important;
+	margin-top: 30px !important;
+}

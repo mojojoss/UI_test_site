@@ -1,0 +1,31 @@
+._arrow-button_right {
+	display: block;
+	width: 50px;
+	height: 50px;
+	border: 3px solid rgb(78, 183, 168);
+	border-radius: 50%;
+	transition-duration: .4s;
+	outline: none;
+	box-sizing: border-box;
+}
+
+._arrow-button_right::after {
+	content: '';
+	display: inline-block;
+	margin-top: 13px;
+	margin-left: 9px;
+	width: 17px;
+	height: 17px;
+	border-top: 3px solid rgb(78, 183, 168);
+	border-right: 3px solid rgb(78, 183, 168);
+	transform: rotate(-315deg);
+	transition-duration: .4s;
+}
+._arrow-button_right:hover{
+	background-color: rgb(78, 183, 168);
+	transition: all .4s ease;
+}
+._arrow-button_right:hover::after{
+	border-color:white;
+	transition: all .4s ease;
+}

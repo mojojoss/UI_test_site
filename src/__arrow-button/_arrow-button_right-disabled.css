@@ -1,0 +1,22 @@
+._arrow-button_right-disabled {
+	display: block;
+	width: 50px;
+	height: 50px;
+	border: 3px solid rgb(78, 183, 168);
+	border-radius: 50%;
+	background-color: rgb(229, 229, 229);
+	border-color: rgb(229, 229, 229);
+	box-sizing: border-box;
+}
+
+._arrow-button_right-disabled::after {
+	content: '';
+	display: inline-block;
+	margin-top: 13px;
+	margin-left: 9px;
+	width: 17px;
+	height: 17px;
+	border-top: 3px solid white;
+	border-right: 3px solid white;
+	transform: rotate(-315deg);
+}

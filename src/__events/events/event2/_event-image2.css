@@ -1,0 +1,8 @@
+#event-image2{
+	display: inline-block;
+	background-image: url(./event-image2.png);
+	width: 95px;
+	height: 212px;
+    background-size: cover;
+    background-position: center;
+}

@@ -1,0 +1,37 @@
+.__button {
+	margin: 0;
+	margin-bottom: 4px;
+	position: relative;
+	display: block;
+	width: 78px;
+	height: 22px;
+	font-weight: bold;
+	cursor: pointer;
+	overflow: hidden;
+	user-select: none;
+	border-radius: 4px;
+	font-size: 10px;
+	box-shadow: 0px 3px;
+	font-family: "lato black";
+    text-align: center;
+    vertical-align: middle;
+}
+
+.ripple {
+	position: absolute;
+	background: rgba(255, 255, 255, 0.3);
+	border-radius: 100%;
+	transform: scale(0);
+	pointer-events: none;
+}
+
+.ripple.show {
+	animation: ripple .75s ease-out;
+}
+
+@keyframes ripple {
+	to {
+		transform: scale(2);
+		opacity: 0;
+	}
+}

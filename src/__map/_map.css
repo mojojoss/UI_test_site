@@ -1,0 +1,52 @@
+.map-box{
+	overflow: hidden;
+	width:594px; 
+	height:274px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+.map-info-box{
+	position: relative;
+	height: 70px;
+	width: 100%;
+	background-color: rgb(231,87,53);
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+.map-call-words{
+	font-family: 'Lato';
+	font-size: 30px;
+	color: white;
+	position: relative;
+	top:14px;
+	left: 29px;
+	
+}
+.map-addres{
+	font-family: 'Lato';
+	font-size: 12,5px;
+	color: white;
+	position: relative;
+	left: 166px;
+	top: -35px;
+}
+.map-myLocation{
+	display: inline-block;
+	background-image: url(../../main/__map/_map_images/MyLocation.png);
+	width: 26px;
+	height: 26px;
+	position: relative;
+	top: -85px;
+	left: 500px;
+	cursor: pointer;
+}
+.map-pin{
+	display: inline-block;
+	background-image: url(../../main/__map/_map_images/Pin.png);
+	width: 19px;
+	height: 25px;
+	position: relative;
+	top: -85px;
+	left: 524px;
+	cursor: pointer;
+}

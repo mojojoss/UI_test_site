@@ -1,0 +1,17 @@
+.big-news {
+    width: 90%;
+}
+
+.news-box-big {
+    width: 90%;
+}
+.news-content-big {
+    font-family: 'Myriad Pro', Regular;
+    color: white;
+    font-size: 11px;
+    display: inline-block;
+    width: 90%;
+    position: relative;
+    left: 22px;
+    top: 50px;
+}

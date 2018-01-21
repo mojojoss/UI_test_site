@@ -1,0 +1,30 @@
+._arrow-button_left {
+	display:block;
+	width: 50px;
+	height: 50px;
+	border: 3px solid rgb(78, 183, 168);
+	border-radius: 50%;
+	transition-duration: .4s;
+	box-sizing: border-box;
+}
+
+._arrow-button_left::after {
+	content: '';
+	display: inline-block;
+	margin-top: 13px;
+	margin-left: 15px;
+	width: 17px;
+	height: 17px;
+	border-top: 3px solid rgb(78, 183, 168);
+	border-right: 3px solid rgb(78, 183, 168);
+	transform: rotate(-135deg);
+	transition-duration: .4s;
+}
+._arrow-button_left:hover{
+	background-color: rgb(78, 183, 168);
+	transition: all .4s ease;
+}
+._arrow-button_left:hover::after{
+	border-color:white;
+	transition: all .4s ease;
+}

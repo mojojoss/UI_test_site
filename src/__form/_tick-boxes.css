@@ -1,0 +1,45 @@
+.radiolabel{
+	display: inline-block;
+	background-color: rgb(229,229,229);
+	width: 25px;
+	height:25px;
+	border-radius: 50%;
+	transition: background-color .2s ease-in;
+}
+.radiolabel::after{
+	content: '';
+	display: block;
+	position: relative;
+	width: 11px;
+	height: 6px;
+	border-bottom: 2px solid white;
+	border-left: 2px solid white;
+	transform: rotate(-45deg);
+	left: 6px;
+	top:7px;
+	
+}
+input[type="radio"]{
+	display: none;
+}
+
+#radioButton1:checked~#radiolabel1{
+	background-color:rgb(40, 162, 144);
+	transition: all .2s ease-in-out;
+}
+#radioButton2:checked~#radiolabel2{
+	background-color:rgb(40, 162, 144);
+	transition: all .2s ease-in-out;
+}
+
+
+/*position*/
+
+#tick-box{
+	margin-left: 127px;
+	margin-top: 30px;
+}
+
+#radiolabel1{
+	margin-right: 12px;
+}

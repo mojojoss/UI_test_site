@@ -1,0 +1,100 @@
+#calendar table tr th{
+	background-color: rgb(231,87,53);
+	border-collapse: collapse;
+	font-family: lato;
+	font-size: 9px;
+	color: white;
+	height: 27px;
+}
+
+#calendar table{
+	border-collapse: collapse;
+	text-align: center;
+}
+#calendar table tr td{
+	background-color: rgb(242,242,242);
+	border: 1px solid white;
+	width: 39px;
+	height: 39px;
+	font-family: myriad pro;
+	color: rgb(134,134,134);
+	font-size: 20px;
+}
+.today{
+	background-color: rgb(231,87,53) !important;
+	color: white !important;
+	
+}
+
+.calendar-box{
+	width: 279px;
+	height: 392px;
+	overflow: hidden;
+	border-radius: 4px;
+}
+#month{
+	width: 100%;
+	height: 43px;
+	background-color: rgb(213,76,44);
+}
+#day{
+	width: 100%;
+	height: 109px;
+	background-color: rgb(231,87,53);
+	
+	
+}
+#today{
+	width: 279px;
+	height: 49px;
+	background-color: rgb(229,229,229);
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+}
+#today p{
+	margin: 0;
+	font-family: lato;
+	color: rgb(134,134,134);
+	font-size: 13px;
+	padding-left: 20px;
+	padding-top: 15px;
+}
+
+.today-top{
+	margin: 0;
+	color: white;
+	font-family: lato;
+	font-size: 80px;
+	text-align: center;
+	padding-top: 13px;
+}
+.month-top{
+	margin: 0;
+	font-family: lato;
+	font-size: 24px;
+	color: white;
+	text-align: center;
+	padding-top: 6px;
+}
+.month-left-button{
+	width: 10px;
+	height: 10px;
+	border-top:  2px solid white;
+	border-left: 2px solid white;
+	position: relative;
+	top: -20px;
+	left: 20px;
+	transform: rotate(-45deg);
+	cursor: pointer;
+}
+.month-right-button{
+	width: 10px;
+	height: 10px;
+	border-top:  2px solid white;
+	border-left: 2px solid white;
+	position: relative;
+	top: -32px;
+	left: 250px;
+	transform: rotate(135deg);
+	cursor: pointer;
+}

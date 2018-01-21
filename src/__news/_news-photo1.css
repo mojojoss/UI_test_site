@@ -1,0 +1,6 @@
+#news-photo1{
+	display: inline-block;
+	background-image: url(../../src/__news/_news-images/news-photo1.png);
+	width: 95px;
+	height: 212px;
+}

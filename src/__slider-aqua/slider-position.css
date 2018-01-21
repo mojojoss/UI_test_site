@@ -1,0 +1,13 @@
+.slider-box {
+	margin-top: 45px;
+	margin-left: 45px;
+}
+._slider-orange-box{
+	float: left;
+	margin-right: 67px
+}
+._slider-aqua-box{
+	position: relative;
+	float: left;
+	top: -9px;
+}
