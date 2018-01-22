@@ -1,6 +1,8 @@
 header{
+    position:fixed;
+    z-index: 1000;
     background-color: rgb(231,87,53);
-    width: 100%;
+    width: 95%;
     height: 30px;
     padding: 5px;
     border-top-right-radius: 5px;
@@ -8,4 +10,15 @@ header{
     display: flex;
     justify-content:flex-start;
     padding-left: 65px;
+}
+.headerunder{
+    height: 40px;
+}
+.headervsp{
+    position: fixed;
+    z-index: 1000;
+    height: 10px;
+    width: 100%;
+    background-color: white;
+    margin-top: -10px;
 }

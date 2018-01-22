@@ -39,7 +39,9 @@ input[type="radio"]{
 	margin-left: 127px;
 	margin-top: 30px;
 }
-
-#radiolabel1{
-	margin-right: 12px;
+.radiospan{
+    color: rgb(136, 136, 136);
+	font-family: 'Myriad Pro', Regular;
+    margin-left: 4px;
+    margin-right: 4px;
 }

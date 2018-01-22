@@ -4,7 +4,7 @@
 
 .toggle {
 	position: relative;
-	left: 50px;
+	left: 40px;
 	width: 60px;
 	height: 24px;
 	border-radius: 100px;
@@ -15,7 +15,7 @@
 }
 
 .check {
-	position: absolute;
+	position: relative;
 	display: block;
 	cursor: pointer;
 	top: 0;
@@ -83,6 +83,5 @@
 	float: left;
 }
 .toggle-position{
-	margin-left: 46px !important;
-	margin-top: 30px !important;
+    display: inline-block;
 }

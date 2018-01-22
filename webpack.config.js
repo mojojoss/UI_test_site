@@ -84,6 +84,10 @@ module.exports = {
             filename:'feedback.html',
 			template:'feedback.pug'
 		}),
+        new HtmlWebpackPlugin({
+            filename:'profile.html',
+			template:'profile.pug'
+		}),
 		new ExtractTextPlugin('styles.css')
 	]
 };

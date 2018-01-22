@@ -1,6 +1,7 @@
 #search-box1{
 	width: 257px;
 	outline: none;
+    
 }
 .search-box-button{
 	display: inline-block;
@@ -13,6 +14,7 @@
 	top: -5px;
 	right: 6px;
 	cursor: pointer;
+    border: 2px solid rgba(225,225,225, 0.3);
 }
 .loupe{
 	position: relative;
@@ -22,8 +24,8 @@
 
 /*position*/
 #search-container{
-	margin-left: 45px;
-	margin-top: 19px;
+    margin-left: auto;
+    margin-right: 20px;
 }
 .select-box{
 	margin-top: 51px;

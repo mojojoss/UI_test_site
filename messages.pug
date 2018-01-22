@@ -3,4 +3,6 @@ html
   include src/head/head.pug
   body
     include src/header/header.pug
-    include src/__message-window/__message-window.pug
+    .messages-page-content
+        h2(style="font-family: 'Myriad Pro', Regular;color: rgb(136, 136, 136);") INCOMING MESSAGES
+        include src/__message-window/__message-window.pug
