@@ -1,8 +1,18 @@
 .video-position{
-	margin-top: 24px;
-	margin-left: 44px;
 	width: 594px;
 	height: 337px;
 	overflow: hidden;
 	border-radius: 4px;
+}
+.video-flex-div{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color: rgba(78,183,168,0.08);
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    margin-top: 20px;
 }

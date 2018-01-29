@@ -3,3 +3,26 @@ html
   include src/head/head.pug
   body
     include src/header/header.pug
+    include src/__progressbar/__progressbar.pug
+    mixin friend-side(name,photoid)
+        .developer-position
+            .developer-box
+              .developer-photo
+                img(src='./src/__user-profile/_developer-photo/developer-photo'+ photoid +'.png')
+              .developer-cloud
+                p.developer-name #{name}
+                p.developer-spec UX DESIGNER
+                a(href='#')
+                  .fb-button
+                a(href='#')
+                  .twitter-button
+                a(href='#')
+                  .dribbble-button
+    
+    
+    .friends-side
+        +friend-side('John Smith', '1')
+        +friend-side('Sarah Brown', '2')
+        +friend-side('Keanu Reeves', '3')
+        +friend-side('Hugh Jackman', '4')
+        +friend-side('Charlize Theron', '5')

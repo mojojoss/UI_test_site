@@ -10398,6 +10398,32 @@ __webpack_require__(34);
 
 __webpack_require__(35);
 
+__webpack_require__(36);
+
+__webpack_require__(37);
+
+__webpack_require__(41);
+
+__webpack_require__(42);
+
+__webpack_require__(40);
+
+__webpack_require__(38);
+
+__webpack_require__(39);
+
+__webpack_require__(43);
+
+__webpack_require__(44);
+
+__webpack_require__(47);
+
+__webpack_require__(48);
+
+__webpack_require__(45);
+
+__webpack_require__(46);
+
 /***/ }),
 /* 2 */
 /***/ (function(module, exports) {
@@ -10672,6 +10698,116 @@ $('.search-box-button').on('click', function () {
 	$('#search-box1').val('I’ve not found what I’m looking for...');
 });
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
+
+/***/ }),
+/* 36 */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+/* 37 */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+/* 38 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "7c6418dddb1652712616a83a79f62a3b.png";
+
+/***/ }),
+/* 39 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "80b73ed5233c594e5dfd874aca2fa370.png";
+
+/***/ }),
+/* 40 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "7a52d40b85fc9e467f4c45d46fd24e52.png";
+
+/***/ }),
+/* 41 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "b3cea0f28293848bc33aaad529203ee3.png";
+
+/***/ }),
+/* 42 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "953008567febe1762ce5e03fd2a82770.png";
+
+/***/ }),
+/* 43 */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+/* 44 */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+/* 45 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "4ffbf4743718a8c3b6a3bfa17752b1fe.png";
+
+/***/ }),
+/* 46 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "d7c8720a811d5dbf0e6c96d8cb62965d.png";
+
+/***/ }),
+/* 47 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+ymaps.ready(function () {
+    var myMap = new ymaps.Map('map', {
+        center: [56.476816, 84.971598],
+        zoom: 15,
+        controls: []
+    }, {
+        searchControlProvider: 'yandex#search'
+    }),
+
+
+    // Создаём макет содержимого.
+    MyIconContentLayout = ymaps.templateLayoutFactory.createClass('<div style="color: #FFFFFF; font-weight: bold;">$[properties.iconContent]</div>'),
+        myPlacemark = new ymaps.Placemark([56.476816, 84.971598], {
+        hintContent: '',
+        balloonContent: 'Это красивая метка'
+    }, {
+        // Опции.
+        // Необходимо указать данный тип макета.
+        iconLayout: 'default#image',
+        // Своё изображение иконки метки.
+        iconImageHref: '../../main/__map/_map_images/map-marker.png',
+        // Размеры метки.
+        iconImageSize: [30, 42],
+        // Смещение левого верхнего угла иконки относительно
+        // её "ножки" (точки привязки).
+        iconImageOffset: [0, 0]
+    });
+
+    myMap.geoObjects.add(myPlacemark);
+});
+
+/***/ }),
+/* 48 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "25c5c8caae4dc2e4d64f0b1926b59605.png";
 
 /***/ })
 /******/ ]);

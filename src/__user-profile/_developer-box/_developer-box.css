@@ -4,8 +4,13 @@
 	height: 83px;
 	border: 5px solid rgb(229,229,229);
 	border-radius: 50%;
-	background-image:url(../../../main/__user-profile/_developer-photo/developer-photo1.png);
 	float: left;
+    overflow: hidden;
+
+}
+.developer-photo img{
+    height: 83px;
+
 }
 .developer-cloud{
 	width: 164px;
@@ -59,25 +64,45 @@
 .fb-button{
 	display: inline-block;
 	margin-left: 37px;
-	background-image: url(../../../main/__social-buttons/FB.png);
+	background-image: url(../../../src/__social-buttons/FB.png);
 	width: 10px;
 	height: 21px;
 }
 .twitter-button{
 	display: inline-block;
 	margin-left: 22px;
-	background-image: url(../../../main/__social-buttons/Twitter.png);
+	background-image: url(../../../src/__social-buttons/Twitter.png);
 	width: 25px;
 	height: 20px;
 }
 .dribbble-button{
 	display: inline-block;
 	margin-left: 15px;
-	background-image: url(../../../main/__social-buttons/Dribbble.png);
+	background-image: url(../../../src/__social-buttons/Dribbble.png);
 	width: 21px;
 	height: 21px;
 }
 .developer-cloud:hover > a > div{
 	cursor: pointer;
 	filter: brightness(10);
+}
+.friends-side{
+    width: 300px;
+    float: right;
+    background-color: rgb(214, 214, 214);
+    border-radius: 4px;
+    
+}
+.friends-side::before{
+    content: 'Friends';
+    font-size: 25px;
+	color: rgb(79,79,79);
+	font-family: 'Lato', Regular;
+	font-weight:bolder;
+    margin-left: 10px;
+}
+.developer-position{
+    display: inline-block;
+    margin: 5px;
+    margin-top: 10px;
 }
