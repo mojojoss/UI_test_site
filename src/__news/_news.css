@@ -13,8 +13,8 @@
     width: 194px;
     height: 212px;
     position: relative;
-    top: 0px;
-    left: 0px;
+    top: -216px;
+    left: 95px;
     border-top-right-radius: 3px;
     border-bottom-right-radius: 3px;
     box-sizing: border-box;
@@ -61,6 +61,7 @@
     position: relative;
     left: 22px;
     top: 50px;
+
 }
 
 .news-flex-div {

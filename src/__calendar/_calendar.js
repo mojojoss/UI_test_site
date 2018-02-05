@@ -23,11 +23,11 @@ function createCalendar(id, year, month) {
 				table += '<td class="today">' + d.getDate() + '</td>';
 			} else {
 				table += '<td>' + d.getDate() + '</td>';
-			} 
+			}
 		}
 		if (d.getDate() != today){
 				table += '<td>' + d.getDate() + '</td>';
-			} 	
+			}
 			
 			if (getDay(d) % 7 == 6) {
 				table += '</tr><tr>';

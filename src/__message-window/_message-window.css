@@ -3,6 +3,7 @@
 	height: 428px;
 	overflow: hidden;
 	border-radius: 4px;
+    margin: 5px;
 
 }
 .message-window-name {
@@ -33,10 +34,10 @@
 	height: 83px;
 	border: 5px solid rgb(229,229,229);
 	border-radius: 50%;
-	background-image: url(../../src/__message-window/_message-window-photo/developer-photo2.png);
 	position: relative;
 	top: -15px;
 	left: 90px;
+    overflow: hidden;
 }
 .incoming-message {
 	background-color: white;
@@ -117,10 +118,15 @@
 	cursor: pointer;
 }
 .messages-page-content{
+    display: flex;
+    justify-content: flex-start;
     padding: 10px;
     width: 95%;
     margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
     background-color: rgba(78,183,168,0.08);
+}
+.message-window-photo img{
+    height: 83px;
 }

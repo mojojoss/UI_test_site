@@ -1,5 +1,6 @@
 body {
-	width: 700px;
+
+    
 }
 h2{
 	font-family: "Lato Black";
@@ -8,4 +9,11 @@ h2{
 	color: rgb(79,79,79);
 }
 
-
+.flex-profile{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 30px;
+}

@@ -1,9 +1,10 @@
 .big-news {
-    width: 90%;
+    width: auto;
 }
 
 .news-box-big {
     width: 90%;
+    overflow: hidden;
 }
 .news-content-big {
     font-family: 'Myriad Pro', Regular;

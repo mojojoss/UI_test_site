@@ -2,7 +2,25 @@ doctype html
 html
   include src/head/head.pug
   body
+    mixin income-message(name,message,photoid)
+        .message-window-box
+            .message-window-name
+              p #{name}
+            .message-window-darkline
+              .message-window-photo
+                img(src='./src/__user-profile/_developer-photo/developer-photo'+ photoid +'.png')
+            .message-window-messageSpace
+              .chat-icon
+              .camera-icon
+              .incoming-message
+                p #{message}
+              .output-message
+                form(action='post')
+                  textarea#message-text(name='message-text')
+                  input.message-reply-button.__button._button_color-aqua.ripp(type='submit', value='REPLY')
     include src/header/header.pug
+    h2(style="font-family: 'Myriad Pro', Regular;color: rgb(136, 136, 136);") INCOMING MESSAGES
     .messages-page-content
-        h2(style="font-family: 'Myriad Pro', Regular;color: rgb(136, 136, 136);") INCOMING MESSAGES
-        include src/__message-window/__message-window.pug
+        +income-message('John Smith', 'hi, how are you?', 1)
+        +income-message('Keanu Reeves','Я знаю кунг-фу.',3)
+        +income-message('Hugh Jackman','Где профессор?!',4)

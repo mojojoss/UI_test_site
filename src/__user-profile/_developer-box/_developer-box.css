@@ -88,10 +88,9 @@
 }
 .friends-side{
     width: 300px;
-    float: right;
     background-color: rgb(214, 214, 214);
     border-radius: 4px;
-    
+    float: none !important;
 }
 .friends-side::before{
     content: 'Friends';

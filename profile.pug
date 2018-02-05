@@ -18,11 +18,22 @@ html
                   .twitter-button
                 a(href='#')
                   .dribbble-button
-    
-    
-    .friends-side
-        +friend-side('John Smith', '1')
-        +friend-side('Sarah Brown', '2')
-        +friend-side('Keanu Reeves', '3')
-        +friend-side('Hugh Jackman', '4')
-        +friend-side('Charlize Theron', '5')
+    .flex-profile
+        .calendar-box
+            include src/__calendar/__calendar.pug
+        .setings
+            include src/__slider-aqua/__sliders.pug
+            br
+            br
+            br
+            h2 Your progress
+            #percentage-box
+              svg#percentage1._percentage._percentage_animation(width='100', height='100')
+                circle(cx='50', cy='50', r='46', fill='none', stroke='#f77a52', stroke-width='5px')
+                text#percentage_text1._percentage_text(data-percent='57', transform='rotate(90)', x='28', y='-37')
+        .friends-side
+            +friend-side('John Smith', '1')
+            +friend-side('Sarah Brown', '2')
+            +friend-side('Keanu Reeves', '3')
+            +friend-side('Hugh Jackman', '4')
+            +friend-side('Charlize Theron', '5')
